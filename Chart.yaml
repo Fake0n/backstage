@@ -1,0 +1,10 @@
+apiVersion: v2
+name: backstage
+version: 1.0.0
+description: "helm chart for backstage test"
+sources:
+  - mirror
+dependencies:
+  - name: backstage
+    version: "latest"
+    repository: "mirror"
